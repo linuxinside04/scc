@@ -6,7 +6,7 @@
 using namespace std;
 char converting(int n) {
 	int remnant = n % 16;
-	unsigned int digit;//number of the digit
+	unsigned int digit=0;//number of the digit
 	char hexresult[256];
 
 	while((n / 16) >= 1) {//recording result into the array
